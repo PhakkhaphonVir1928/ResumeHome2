@@ -1,0 +1,185 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #FFC0CB; /* ชมพู */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    font-size: 18px;
+}
+
+/* Skills Section */
+.skills {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.skills table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.skills table th, .skills table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.skills table th {
+    background-color: #FFC0CB; /* ชมพู */
+    color: white;
+}
+
+/* About Me Section */
+.about, .experience {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #FFC0CB; /* ชมพู */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+/* Contact Page Styles */
+body {
+    font-family: 'Arial', 'Mali', sans-serif;
+    background-color: #fce0e5;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    color: #d16c91;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFC0CB;
+}
+
+label {
+    font-weight: bold;
+    color: #666;
+}
+
+input, textarea {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #d16c91;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #333;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+button[type="submit"] {
+    background-color: #d16c91;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff69b4;
+    transform: scale(1.05);
+}
+
+/* Popup Styles */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+.popup-content {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.popup-content .btn {
+    background-color: #d16c91;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.popup-content .btn:hover {
+    background-color: #ff4d4d;
+}
